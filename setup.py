@@ -333,7 +333,7 @@ if need_cython():
     setup_requires.append(CYTHON_STR)
 
 setup(
-    name='gensim',
+    name='gensimad',
     version='4.2.0',
     description='Python framework for fast Vector Space Modelling',
     long_description=LONG_DESCRIPTION,
