@@ -47,7 +47,7 @@ logger = logging.getLogger(__name__)
 # See also https://github.com/RaRe-Technologies/gensim/pull/3065
 PICKLE_PROTOCOL = 4
 
-PAT_ALPHABETIC = re.compile(r'(((?![\d])\w)+)', re.UNICODE)
+PAT_ALPHABETIC = re.compile(r'((\w)+)', re.UNICODE)
 RE_HTML_ENTITY = re.compile(r'&(#?)([xX]?)(\w{1,8});', re.UNICODE)
 
 NO_CYTHON = RuntimeError(
